@@ -10,4 +10,63 @@
     
     import 'relative/path/to/stylesheet.scss';
 
-*/
+
+    */
+
+body {
+    background-color: #3B424D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto
+};
+
+#app {
+    align-items: center;
+    justify-self: unset;
+}
+
+.container {
+    background-color: #306E73;
+    margin-top: 180px;
+    border: 1px solid #3B424D;
+    border-radius: 1.5rem;
+}
+
+h3 {
+    text-align: center;
+    color: #FF5335;
+}
+
+h1 {
+    text-align: center;
+    color: #FF5335;
+    background-color: #3B424D;
+    border: 1px solid rgb(195,120,79);
+    padding: 10px;
+}
+
+
+
+.box {
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    width: 120px;
+    margin: 20px;
+    height: 60px;
+    box-shadow: 5px 5px #3B424D;
+}
+
+a {
+    text-decoration: none;
+    color: #FF5335 ;
+}
+
+footer {
+    margin-top: 220px;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    background-color: #454d5a;
+}
